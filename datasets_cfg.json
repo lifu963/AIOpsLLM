@@ -1,0 +1,44 @@
+[
+    {
+        "name": "CIFAR-100",
+        "path": "datasets\\CIFAR-100.md",
+        "task": "image_classification",
+        "summary": "CIFAR-100是一个包含100个类别的经典图像分类数据集，每个类别有600张32x32的彩色图像，适用于图像分类任务，可用于训练和评估图像分类模型。"
+    },
+    {
+        "name": "Cityscapes",
+        "path": "datasets\\Cityscapes.md",
+        "task": "image_segmentation",
+        "summary": "Cityscapes数据集是一个适用于图像分割任务的高分辨率城市街景图像数据集，具有精细的像素级标注，可用于开发和评估图像分割算法，解决城市场景中的实际问题，例如自动驾驶和交通监控。"
+    },
+    {
+        "name": "COCO-Stuff",
+        "path": "datasets\\COCO-Stuff.md",
+        "task": "image_segmentation",
+        "summary": "COCO-Stuff数据集是COCO数据集的扩展，提供了对非物体类别的像素级标注，结合物体和场景类别标注信息，用于推动计算机视觉领域在场景理解方面的发展，如语义分割和场景分析。"
+    },
+    {
+        "name": "COCO",
+        "path": "datasets\\COCO.md",
+        "task": "object_detection",
+        "summary": "COCO数据集是一个包含超过330,000张图像和80个不同类别目标的大规模数据集，提供丰富的标注信息，适用于目标检测和分割任务，旨在支持算法在真实世界复杂环境下的测试和评估。"
+    },
+    {
+        "name": "ImageNet",
+        "path": "datasets\\ImageNet.md",
+        "task": "image_classification",
+        "summary": "ImageNet是一个包含超过100万张高分辨率图像的大规模数据集，涵盖了1000个类别，用于为图像分类任务提供丰富多样的训练和评估数据，广泛应用于深度学习模型的训练和性能评估。"
+    },
+    {
+        "name": "MNIST",
+        "path": "datasets\\MNIST.md",
+        "task": "image_classification",
+        "summary": "MNIST数据集是一个经典的手写数字图像数据集，包含10个类别的28x28像素的灰度图像，常用于图像分类任务，适合用于入门级图像分类任务的模型训练、算法验证和教学演示。"
+    },
+    {
+        "name": "Pascal_VOC",
+        "path": "datasets\\Pascal_VOC.md",
+        "task": "object_detection",
+        "summary": "Pascal VOC数据集是经典的用于目标检测和图像分割任务的数据集，包含20个类别的目标及其位置、类别标注，广泛应用于评估算法性能、比较研究以及推动目标检测和图像分割技术的发展，可以通过PyTorch等工具加载并用于模型训练。"
+    }
+]

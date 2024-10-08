@@ -1,0 +1,34 @@
+{
+    "name": "validate_FCN_Cityscapes",
+    "description": "Evaluate FCN model performance on Cityscapes dataset for image segmentation task.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "model_path": {
+                "type": "string",
+                "description": "Path to the trained model parameters. Required."
+            },
+            "dataset_path": {
+                "type": "string",
+                "description": "Path to the dataset. Required."
+            },
+            "num_epochs": {
+                "type": "integer",
+                "description": "Number of iterations for evaluation. Optional."
+            },
+            "batch_size": {
+                "type": "integer",
+                "description": "Batch size for evaluation. Optional."
+            },
+            "evaluation_file": {
+                "type": "string",
+                "description": "Path to save model evaluation results in JSON format. Required."
+            }
+        },
+        "required": [
+            "model_path",
+            "dataset_path",
+            "evaluation_file"
+        ]
+    }
+}

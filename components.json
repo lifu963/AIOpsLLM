@@ -1,0 +1,405 @@
+[
+  {
+    "name": "Pytorch",
+    "description": "PyTorch components for building ML pipelines.",
+    "children": [
+      {
+        "name": "download_model",
+        "description": "Download model parameters from the cloud to the local environment.",
+        "path": ".\\Pytorch\\download_model"
+      },
+      {
+        "name": "upload_model",
+        "description": "Upload model parameters from the local environment to the cloud.",
+        "path": ".\\Pytorch\\upload_model"
+      },
+      {
+        "name": "tune",
+        "description": "Hyperparameter tuning PyTorch components.",
+        "children": [
+          {
+            "name": "image_classification",
+            "description": "Hyperparameter tuning PyTorch components for image classification task.",
+            "children": [
+              {
+                "name": "tune_AlexNet_CIFAR-100",
+                "description": "Perform hyperparameter tuning for AlexNet model on CIFAR-100 dataset for image classification task.",
+                "path": ".\\Pytorch\\tune\\image_classification\\tune_AlexNet_CIFAR-100"
+              },
+              {
+                "name": "tune_AlexNet_ImageNet",
+                "description": "Perform hyperparameter tuning for AlexNet model on ImageNet dataset for image classification task.",
+                "path": ".\\Pytorch\\tune\\image_classification\\tune_AlexNet_ImageNet"
+              },
+              {
+                "name": "tune_AlexNet_MNIST",
+                "description": "Perform hyperparameter tuning for AlexNet model on MNIST dataset for image classification task.",
+                "path": ".\\Pytorch\\tune\\image_classification\\tune_AlexNet_MNIST"
+              },
+              {
+                "name": "tune_ResNet_CIFAR-100",
+                "description": "Perform hyperparameter tuning for ResNet model on CIFAR-100 dataset for image classification task.",
+                "path": ".\\Pytorch\\tune\\image_classification\\tune_ResNet_CIFAR-100"
+              },
+              {
+                "name": "tune_ResNet_ImageNet",
+                "description": "Perform hyperparameter tuning for ResNet model on ImageNet dataset for image classification task.",
+                "path": ".\\Pytorch\\tune\\image_classification\\tune_ResNet_ImageNet"
+              },
+              {
+                "name": "tune_ResNet_MNIST",
+                "description": "Perform hyperparameter tuning for ResNet model on MNIST dataset for image classification task.",
+                "path": ".\\Pytorch\\tune\\image_classification\\tune_ResNet_MNIST"
+              },
+              {
+                "name": "tune_VGG_CIFAR-100",
+                "description": "Perform hyperparameter tuning for VGG model on CIFAR-100 dataset for image classification task.",
+                "path": ".\\Pytorch\\tune\\image_classification\\tune_VGG_CIFAR-100"
+              },
+              {
+                "name": "tune_VGG_ImageNet",
+                "description": "Perform hyperparameter tuning for VGG model on ImageNet dataset for image classification task.",
+                "path": ".\\Pytorch\\tune\\image_classification\\tune_VGG_ImageNet"
+              },
+              {
+                "name": "tune_VGG_MNIST",
+                "description": "Perform hyperparameter tuning for VGG model on MNIST dataset for image classification task.",
+                "path": ".\\Pytorch\\tune\\image_classification\\tune_VGG_MNIST"
+              }
+            ]
+          },
+          {
+            "name": "object_detection",
+            "description": "Hyperparameter tuning PyTorch components for object detection task.",
+            "children": [
+              {
+                "name": "tune_R-CNN_COCO",
+                "description": "Perform hyperparameter tuning for R-CNN model on COCO dataset for object detection task.",
+                "path": ".\\Pytorch\\tune\\object_detection\\tune_R-CNN_COCO"
+              },
+              {
+                "name": "tune_R-CNN_Pascal_VOC",
+                "description": "Perform hyperparameter tuning for R-CNN model on Pascal_VOC dataset for object detection task.",
+                "path": ".\\Pytorch\\tune\\object_detection\\tune_R-CNN_Pascal_VOC"
+              },
+              {
+                "name": "tune_SSD_COCO",
+                "description": "Perform hyperparameter tuning for SSD model on COCO dataset for object detection task.",
+                "path": ".\\Pytorch\\tune\\object_detection\\tune_SSD_COCO"
+              },
+              {
+                "name": "tune_SSD_Pascal_VOC",
+                "description": "Perform hyperparameter tuning for SSD model on Pascal_VOC dataset for object detection task.",
+                "path": ".\\Pytorch\\tune\\object_detection\\tune_SSD_Pascal_VOC"
+              },
+              {
+                "name": "tune_YOLO_COCO",
+                "description": "Perform hyperparameter tuning for YOLO model on COCO dataset for object detection task.",
+                "path": ".\\Pytorch\\tune\\object_detection\\tune_YOLO_COCO"
+              },
+              {
+                "name": "tune_YOLO_Pascal_VOC",
+                "description": "Perform hyperparameter tuning for YOLO model on Pascal_VOC dataset for object detection task.",
+                "path": ".\\Pytorch\\tune\\object_detection\\tune_YOLO_Pascal_VOC"
+              }
+            ]
+          },
+          {
+            "name": "image_segmentation",
+            "description": "Hyperparameter tuning PyTorch components for image segmentation task.",
+            "children": [
+              {
+                "name": "tune_FCN_Cityscapes",
+                "description": "Perform hyperparameter tuning for FCN model on Cityscapes dataset for image segmentation task.",
+                "path": ".\\Pytorch\\tune\\image_segmentation\\tune_FCN_Cityscapes"
+              },
+              {
+                "name": "tune_FCN_COCO-Stuff",
+                "description": "Perform hyperparameter tuning for FCN model on COCO-Stuff dataset for image segmentation task.",
+                "path": ".\\Pytorch\\tune\\image_segmentation\\tune_FCN_COCO-Stuff"
+              },
+              {
+                "name": "tune_Mask_R-CNN_Cityscapes",
+                "description": "Perform hyperparameter tuning for Mask_R-CNN model on Cityscapes dataset for image segmentation task.",
+                "path": ".\\Pytorch\\tune\\image_segmentation\\tune_Mask_R-CNN_Cityscapes"
+              },
+              {
+                "name": "tune_Mask_R-CNN_COCO-Stuff",
+                "description": "Perform hyperparameter tuning for Mask_R-CNN model on COCO-Stuff dataset for image segmentation task.",
+                "path": ".\\Pytorch\\tune\\image_segmentation\\tune_Mask_R-CNN_COCO-Stuff"
+              },
+              {
+                "name": "tune_U-Net_Cityscapes",
+                "description": "Perform hyperparameter tuning for U-Net model on Cityscapes dataset for image segmentation task.",
+                "path": ".\\Pytorch\\tune\\image_segmentation\\tune_U-Net_Cityscapes"
+              },
+              {
+                "name": "tune_U-Net_COCO-Stuff",
+                "description": "Perform hyperparameter tuning for U-Net model on COCO-Stuff dataset for image segmentation task.",
+                "path": ".\\Pytorch\\tune\\image_segmentation\\tune_U-Net_COCO-Stuff"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "train",
+        "description": "Model training PyTorch components.",
+        "children": [
+          {
+            "name": "image_classification",
+            "description": "Model training PyTorch components for image classification task.",
+            "children": [
+              {
+                "name": "train_AlexNet_CIFAR-100",
+                "description": "Train for AlexNet model on CIFAR-100 dataset for image classification task.",
+                "path": ".\\Pytorch\\train\\image_classification\\train_AlexNet_CIFAR-100"
+              },
+              {
+                "name": "train_AlexNet_ImageNet",
+                "description": "Train for AlexNet model on ImageNet dataset for image classification task.",
+                "path": ".\\Pytorch\\train\\image_classification\\train_AlexNet_ImageNet"
+              },
+              {
+                "name": "train_AlexNet_MNIST",
+                "description": "Train for AlexNet model on MNIST dataset for image classification task.",
+                "path": ".\\Pytorch\\train\\image_classification\\train_AlexNet_MNIST"
+              },
+              {
+                "name": "train_ResNet_CIFAR-100",
+                "description": "Train for ResNet model on CIFAR-100 dataset for image classification task.",
+                "path": ".\\Pytorch\\train\\image_classification\\train_ResNet_CIFAR-100"
+              },
+              {
+                "name": "train_ResNet_ImageNet",
+                "description": "Train for ResNet model on ImageNet dataset for image classification task.",
+                "path": ".\\Pytorch\\train\\image_classification\\train_ResNet_ImageNet"
+              },
+              {
+                "name": "train_ResNet_MNIST",
+                "description": "Train for ResNet model on MNIST dataset for image classification task.",
+                "path": ".\\Pytorch\\train\\image_classification\\train_ResNet_MNIST"
+              },
+              {
+                "name": "train_VGG_CIFAR-100",
+                "description": "Train for VGG model on CIFAR-100 dataset for image classification task.",
+                "path": ".\\Pytorch\\train\\image_classification\\train_VGG_CIFAR-100"
+              },
+              {
+                "name": "train_VGG_ImageNet",
+                "description": "Train for VGG model on ImageNet dataset for image classification task.",
+                "path": ".\\Pytorch\\train\\image_classification\\train_VGG_ImageNet"
+              },
+              {
+                "name": "train_VGG_MNIST",
+                "description": "Train for VGG model on MNIST dataset for image classification task.",
+                "path": ".\\Pytorch\\train\\image_classification\\train_VGG_MNIST"
+              }
+            ]
+          },
+          {
+            "name": "object_detection",
+            "description": "Model training PyTorch components for object detection task.",
+            "children": [
+              {
+                "name": "train_R-CNN_COCO",
+                "description": "Train for R-CNN model on COCO dataset for object detection task.",
+                "path": ".\\Pytorch\\train\\object_detection\\train_R-CNN_COCO"
+              },
+              {
+                "name": "train_R-CNN_Pascal_VOC",
+                "description": "Train for R-CNN model on Pascal_VOC dataset for object detection task.",
+                "path": ".\\Pytorch\\train\\object_detection\\train_R-CNN_Pascal_VOC"
+              },
+              {
+                "name": "train_SSD_COCO",
+                "description": "Train for SSD model on COCO dataset for object detection task.",
+                "path": ".\\Pytorch\\train\\object_detection\\train_SSD_COCO"
+              },
+              {
+                "name": "train_SSD_Pascal_VOC",
+                "description": "Train for SSD model on Pascal_VOC dataset for object detection task.",
+                "path": ".\\Pytorch\\train\\object_detection\\train_SSD_Pascal_VOC"
+              },
+              {
+                "name": "train_YOLO_COCO",
+                "description": "Train for YOLO model on COCO dataset for object detection task.",
+                "path": ".\\Pytorch\\train\\object_detection\\train_YOLO_COCO"
+              },
+              {
+                "name": "train_YOLO_Pascal_VOC",
+                "description": "Train for YOLO model on Pascal_VOC dataset for object detection task.",
+                "path": ".\\Pytorch\\train\\object_detection\\train_YOLO_Pascal_VOC"
+              }
+            ]
+          },
+          {
+            "name": "image_segmentation",
+            "description": "Model training PyTorch components for image segmentation task.",
+            "children": [
+              {
+                "name": "train_FCN_Cityscapes",
+                "description": "Train for FCN model on Cityscapes dataset for image segmentation task.",
+                "path": ".\\Pytorch\\train\\image_segmentation\\train_FCN_Cityscapes"
+              },
+              {
+                "name": "train_FCN_COCO-Stuff",
+                "description": "Train for FCN model on COCO-Stuff dataset for image segmentation task.",
+                "path": ".\\Pytorch\\train\\image_segmentation\\train_FCN_COCO-Stuff"
+              },
+              {
+                "name": "train_Mask_R-CNN_Cityscapes",
+                "description": "Train for Mask_R-CNN model on Cityscapes dataset for image segmentation task.",
+                "path": ".\\Pytorch\\train\\image_segmentation\\train_Mask_R-CNN_Cityscapes"
+              },
+              {
+                "name": "train_Mask_R-CNN_COCO-Stuff",
+                "description": "Train for Mask_R-CNN model on COCO-Stuff dataset for image segmentation task.",
+                "path": ".\\Pytorch\\train\\image_segmentation\\train_Mask_R-CNN_COCO-Stuff"
+              },
+              {
+                "name": "train_U-Net_Cityscapes",
+                "description": "Train for U-Net model on Cityscapes dataset for image segmentation task.",
+                "path": ".\\Pytorch\\train\\image_segmentation\\train_U-Net_Cityscapes"
+              },
+              {
+                "name": "train_U-Net_COCO-Stuff",
+                "description": "Train for U-Net model on COCO-Stuff dataset for image segmentation task.",
+                "path": ".\\Pytorch\\train\\image_segmentation\\train_U-Net_COCO-Stuff"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "validate",
+        "description": "Metric validation PyTorch components.",
+        "children": [
+          {
+            "name": "image_classification",
+            "description": "Metric validation PyTorch components for image classification task.",
+            "children": [
+              {
+                "name": "validate_AlexNet_CIFAR-100",
+                "description": "Evaluate AlexNet model performance on CIFAR-100 dataset for image classification task.",
+                "path": ".\\Pytorch\\validate\\image_classification\\validate_AlexNet_CIFAR-100"
+              },
+              {
+                "name": "validate_AlexNet_ImageNet",
+                "description": "Evaluate AlexNet model performance on ImageNet dataset for image classification task.",
+                "path": ".\\Pytorch\\validate\\image_classification\\validate_AlexNet_ImageNet"
+              },
+              {
+                "name": "validate_AlexNet_MNIST",
+                "description": "Evaluate AlexNet model performance on MNIST dataset for image classification task.",
+                "path": ".\\Pytorch\\validate\\image_classification\\validate_AlexNet_MNIST"
+              },
+              {
+                "name": "validate_ResNet_CIFAR-100",
+                "description": "Evaluate ResNet model performance on CIFAR-100 dataset for image classification task.",
+                "path": ".\\Pytorch\\validate\\image_classification\\validate_ResNet_CIFAR-100"
+              },
+              {
+                "name": "validate_ResNet_ImageNet",
+                "description": "Evaluate ResNet model performance on ImageNet dataset for image classification task.",
+                "path": ".\\Pytorch\\validate\\image_classification\\validate_ResNet_ImageNet"
+              },
+              {
+                "name": "validate_ResNet_MNIST",
+                "description": "Evaluate ResNet model performance on MNIST dataset for image classification task.",
+                "path": ".\\Pytorch\\validate\\image_classification\\validate_ResNet_MNIST"
+              },
+              {
+                "name": "validate_VGG_CIFAR-100",
+                "description": "Evaluate VGG model performance on CIFAR-100 dataset for image classification task.",
+                "path": ".\\Pytorch\\validate\\image_classification\\validate_VGG_CIFAR-100"
+              },
+              {
+                "name": "validate_VGG_ImageNet",
+                "description": "Evaluate VGG model performance on ImageNet dataset for image classification task.",
+                "path": ".\\Pytorch\\validate\\image_classification\\validate_VGG_ImageNet"
+              },
+              {
+                "name": "validate_VGG_MNIST",
+                "description": "Evaluate VGG model performance on MNIST dataset for image classification task.",
+                "path": ".\\Pytorch\\validate\\image_classification\\validate_VGG_MNIST"
+              }
+            ]
+          },
+          {
+            "name": "object_detection",
+            "description": "Metric validation PyTorch components for object detection task.",
+            "children": [
+              {
+                "name": "validate_R-CNN_COCO",
+                "description": "Evaluate R-CNN model performance on COCO dataset for object detection task.",
+                "path": ".\\Pytorch\\validate\\object_detection\\validate_R-CNN_COCO"
+              },
+              {
+                "name": "validate_R-CNN_Pascal_VOC",
+                "description": "Evaluate R-CNN model performance on Pascal_VOC dataset for object detection task.",
+                "path": ".\\Pytorch\\validate\\object_detection\\validate_R-CNN_Pascal_VOC"
+              },
+              {
+                "name": "validate_SSD_COCO",
+                "description": "Evaluate SSD model performance on COCO dataset for object detection task.",
+                "path": ".\\Pytorch\\validate\\object_detection\\validate_SSD_COCO"
+              },
+              {
+                "name": "validate_SSD_Pascal_VOC",
+                "description": "Evaluate SSD model performance on Pascal_VOC dataset for object detection task.",
+                "path": ".\\Pytorch\\validate\\object_detection\\validate_SSD_Pascal_VOC"
+              },
+              {
+                "name": "validate_YOLO_COCO",
+                "description": "Evaluate YOLO model performance on COCO dataset for object detection task.",
+                "path": ".\\Pytorch\\validate\\object_detection\\validate_YOLO_COCO"
+              },
+              {
+                "name": "validate_YOLO_Pascal_VOC",
+                "description": "Evaluate YOLO model performance on Pascal_VOC dataset for object detection task.",
+                "path": ".\\Pytorch\\validate\\object_detection\\validate_YOLO_Pascal_VOC"
+              }
+            ]
+          },
+          {
+            "name": "image_segmentation",
+            "description": "Metric validation PyTorch components for image segmentation task.",
+            "children": [
+              {
+                "name": "validate_FCN_Cityscapes",
+                "description": "Evaluate FCN model performance on Cityscapes dataset for image segmentation task.",
+                "path": ".\\Pytorch\\validate\\image_segmentation\\validate_FCN_Cityscapes"
+              },
+              {
+                "name": "validate_FCN_COCO-Stuff",
+                "description": "Evaluate FCN model performance on COCO-Stuff dataset for image segmentation task.",
+                "path": ".\\Pytorch\\validate\\image_segmentation\\validate_FCN_COCO-Stuff"
+              },
+              {
+                "name": "validate_Mask_R-CNN_Cityscapes",
+                "description": "Evaluate Mask_R-CNN model performance on Cityscapes dataset for image segmentation task.",
+                "path": ".\\Pytorch\\validate\\image_segmentation\\validate_Mask_R-CNN_Cityscapes"
+              },
+              {
+                "name": "validate_Mask_R-CNN_COCO-Stuff",
+                "description": "Evaluate Mask_R-CNN model performance on COCO-Stuff dataset for image segmentation task.",
+                "path": ".\\Pytorch\\validate\\image_segmentation\\validate_Mask_R-CNN_COCO-Stuff"
+              },
+              {
+                "name": "validate_U-Net_Cityscapes",
+                "description": "Evaluate U-Net model performance on Cityscapes dataset for image segmentation task.",
+                "path": ".\\Pytorch\\validate\\image_segmentation\\validate_U-Net_Cityscapes"
+              },
+              {
+                "name": "validate_U-Net_COCO-Stuff",
+                "description": "Evaluate U-Net model performance on COCO-Stuff dataset for image segmentation task.",
+                "path": ".\\Pytorch\\validate\\image_segmentation\\validate_U-Net_COCO-Stuff"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

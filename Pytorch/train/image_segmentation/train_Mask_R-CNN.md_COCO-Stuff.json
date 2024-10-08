@@ -1,0 +1,37 @@
+{
+    "name": "train_Mask_R-CNN.md_COCO-Stuff",
+    "description": "Train for Mask_R-CNN.md model on COCO-Stuff dataset for image segmentation task.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "model_path": {
+                "type": "string",
+                "description": "Path to the pre-trained model parameters. Optional."
+            },
+            "dataset_path": {
+                "type": "string",
+                "description": "Path to the dataset. Required."
+            },
+            "num_epochs": {
+                "type": "integer",
+                "description": "Number of iterations for training. Optional."
+            },
+            "batch_size": {
+                "type": "integer",
+                "description": "Batch size for training. Optional."
+            },
+            "hyperparams_path": {
+                "type": "string",
+                "description": "Path to the file containing hyperparameters in JSON format. Optional."
+            },
+            "saved_model_path": {
+                "type": "string",
+                "description": "Path to save the trained model parameters. Required."
+            }
+        },
+        "required": [
+            "dataset_path",
+            "saved_model_path"
+        ]
+    }
+}

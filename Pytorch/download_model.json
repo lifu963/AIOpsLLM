@@ -1,0 +1,18 @@
+{
+    "name": "download_model",
+    "description": "Download model parameters from the cloud to the local environment.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "cloud_path": {
+                "type": "string",
+                "description": "Path to the model parameters in the cloud. Required."
+            },
+            "local_path": {
+                "type": "string",
+                "description": "Path where the downloaded model parameters will be stored locally. Required."
+            }
+        },
+        "required": ["cloud_path", "local_path"]
+    }
+}

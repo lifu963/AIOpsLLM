@@ -1,0 +1,56 @@
+[
+    {
+        "name": "AlexNet",
+        "path": "models\\AlexNet.md",
+        "task": "image_classification",
+        "summary": "AlexNet是一种经典的深度卷积神经网络模型，具有较大的卷积核、更深的网络结构、采用了ReLU激活函数和Dropout正则化等特点，在图像分类等任务中广泛应用，但相对较大的模型体积和计算量可能限制了在资源受限环境中的部署和应用，因此在选择使用时需要根据具体任务和环境特点进行权衡和评估。"
+    },
+    {
+        "name": "FCN",
+        "path": "models\\FCN.md",
+        "task": "image_segmentation",
+        "summary": "FCN（Fully Convolutional Network）是一种经典的深度学习模型，通过全卷积层实现端到端的像素级别的语义分割，在诸如道路检测、医学图像分析和自然场景理解等任务中得到广泛应用。"
+    },
+    {
+        "name": "Mask_R-CNN",
+        "path": "models\\Mask_R-CNN.md",
+        "task": "image_segmentation",
+        "summary": "Mask R-CNN是一种结合了目标检测和语义分割的深度学习模型，能够实现像素级别的分割，适用于医学图像分析、工业检测以及自然场景中的物体识别与分割等任务。"
+    },
+    {
+        "name": "R-CNN",
+        "path": "models\\R-CNN.md",
+        "task": "object_detection",
+        "summary": "R-CNN是一种经典的目标检测方法，通过选择性搜索生成候选区域，使用CNN进行特征提取，并通过支持向量机进行分类，适用于需要精确识别物体位置并进行分类的任务，如安防监控、智能交通、工业质检等。"
+    },
+    {
+        "name": "ResNet",
+        "path": "models\\ResNet.md",
+        "task": "image_classification",
+        "summary": "ResNet是一种深度残差网络模型，通过残差连接设计有效缓解梯度消失问题，使得可以训练更深的网络，特别适用于图像分类任务，需要训练深层网络以获得高准确度的场景，可以通过PyTorch框架加载和使用。"
+    },
+    {
+        "name": "SSD",
+        "path": "models\\SSD.md",
+        "task": "object_detection",
+        "summary": "SSD（Single Shot Multibox Detector）是一种用于实时目标检测的经典模型，具有较高的检测速度和较好的性能，适用于视频监控、自动驾驶和物体识别等场景。其特点是可以在单次前向传播中同时预测多个目标的位置和类别。"
+    },
+    {
+        "name": "U-Net",
+        "path": "models\\U-Net.md",
+        "task": "image_segmentation",
+        "summary": "U-Net是一种编码器-解码器结构，通过跳跃连接实现对图像细节进行精细分割的深度学习模型，适用于医学图像分割、卫星图像分析和自然场景理解等领域。"
+    },
+    {
+        "name": "VGG",
+        "path": "models\\VGG.md",
+        "task": "image_classification",
+        "summary": "VGG模型是一种深度卷积神经网络，特点是通过堆叠多个较小尺寸的卷积核实现较大感受野的覆盖，主要应用于图像分类任务，在需要进行细粒度分类的场景中应用广泛。"
+    },
+    {
+        "name": "YOLO",
+        "path": "models\\YOLO.md",
+        "task": "object_detection",
+        "summary": "YOLO模型是一种采用回归问题策略，在整个图像上预测边界框和类别概率，适用于实时目标检测场景，广泛应用于实时应用、视频监控、自动驾驶、无人机跟踪等领域。"
+    }
+]

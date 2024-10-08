@@ -1,0 +1,38 @@
+{
+    "name": "tune_VGG.md_ImageNet",
+    "description": "Perform hyperparameter tuning for VGG.md model on ImageNet dataset for image classification task.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "model_path": {
+                "type": "string",
+                "description": "Path to the pre-trained model parameters. Optional."
+            },
+            "dataset_path": {
+                "type": "string",
+                "description": "Path to the dataset. Required."
+            },
+            "num_epochs": {
+                "type": "integer",
+                "description": "Number of iterations for tuning. Optional."
+            },
+            "batch_size": {
+                "type": "integer",
+                "description": "Batch size for tuning. Optional."
+            },
+            "hyperparams_tuning_file": {
+                "type": "string",
+                "description": "Path to the file containing hyperparameters and their tuning ranges in JSON format. Required."
+            },
+            "best_hyperparams_path": {
+                "type": "string",
+                "description": "Path to save the best hyperparameters in JSON format. Required."
+            }
+        },
+        "required": [
+            "dataset_path",
+            "hyperparams_tuning_file",
+            "best_hyperparams_path"
+        ]
+    }
+}
